@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@0,300..800;1,300..800&display=swap" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+<body>
+    <!-- setting box -->
+    <div class="setting-box">
+        <div class="colors none">
+            <h4>Colors</h4>
+            <ul class="color-list">
+                <li class="active" data-color="#ff5722"></li>
+                <li data-color="#3f51b5"></li>
+                <li data-color="red"></li>
+                <li data-color="#ffeb3b"></li>
+                <li data-color="#009688"></li>
+            </ul>
+            </div>
+        <div class="colors background none">
+                <div class="option-tools">
+                    <h4>Random background</h4>
+                    <span class="yes active" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+        </div>
+        <div class="colors bullets-control none">
+                <div class="option-tools">
+                    <h4>Show bullets</h4>
+                    <span class="yes active" data-view="show">Yes</span>
+                    <span class="no" data-view="hide">No</span>
+                </div>
+        </div>
+        <div class="reset-button none">
+            <button class="reset">Reset</button>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+    </div> 
+    <!-- end setting box -->
+    <!-- start bullets section -->
+    <div class="bullets">
+            <div class="bullet-circle" data-section=".hello"></div>
+            <div class="bullet-circle" data-section=".about-us"></div>
+            <div class="bullet-circle" data-section=".skills"></div>
+            <div class="bullet-circle" data-section=".gallery"></div>
+            <div class="bullet-circle" data-section=".timeline"></div>
+            <div class="bullet-circle" data-section=".features"></div>
+            <div class="bullet-circle" data-section=".testmonials"></div>
+            <div class="bullet-circle" data-section=".opinion"></div>
+    </div>
+    <div class="bullets-two">
+            <div class="bullet-title">Home</div>
+            <div class="bullet-title">About Us</div>
+            <div class="bullet-title">Our Skills</div>
+            <div class="bullet-title">Our Gallery</div>
+            <div class="bullet-title">Timeline</div>
+            <div class="bullet-title">Features</div>
+            <div class="bullet-title">Testmonilas</div>
+            <div class="bullet-title">Comments</div>
+    </div>
+
+    </div>
+    <!-- end bullets section -->
+    <!-- end setting box -->
+    <!-- landing-page -->
+    <div class="hello">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo"><i class="fa-solid fa-code"></i></i></div>
+                <div class="link-container">
+                <ul class="list">
+                    <li><a href="#" class="active" data-section=".hello">Home</a></li>
+                    <li><a href="#" data-section=".about-us">About</a></li>
+                    <li><a href="#" data-section=".skills">Skills</a></li>
+                    <li><a href="#" data-section=".gallery">Gallery</a></li>
+                    <li><a href="#" data-section=".timeline">Timeline</a></li>
+                    <li><a href="#" data-section=".features">Features</a></li>
+                    <li><a href="#" data-section=".testmonials">Testmonials</a></li>
+                </ul>
+                <button class="toggle-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            </div>
+
+            <div class="content-text">
+                <h1>Hello, <span>World</span></h1>
+                <p>Success is a pile of failure that you are standing on.</p>
+            </div>
+        </div>
+    </div>
+    <!-- end landing-page -->
+    <!-- start about us section  -->
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aspernatur corrupti eius illum dignissimos, eaque quam, ex voluptate cumque blanditiis placeat maiores perspiciatis nulla quo labore mollitia ipsam rerum! Impedit?</p>
+            </div>
+            <div class="image-box">
+                <img src="./css/imgs/06.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end about us section  -->
+    <!-- start skills section  -->
+    <div class="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skills-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Javascript</div>
+                <div class="skill-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">Python</div>
+                <div class="skill-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">C</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="skills-box">
+                <div class="skill-name">MySQL</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start skills section  -->
+    <!-- start gallery section  -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="image-box">
+                <img src="./css/imgs/30.jpg" alt="Image One">
+                <img src="./css/imgs/31.jpg" alt="Image Two">
+                <img src="./css/imgs/32.jpg" alt="Image Three">
+                <img src="./css/imgs/33.jpg" alt="Image Four">
+                <img src="./css/imgs/34.jpg" alt="Image Five">
+                <img src="./css/imgs/35.jpg" alt="Image Six">
+                <img src="./css/imgs/36.jpg" alt="Image Seven">
+                <img src="./css/imgs/37.jpg" alt="Image Eight">
+                <img src="./css/imgs/38.jpg" alt="Image Nine">
+                <img src="./css/imgs/39.jpg" alt="Image Ten">
+            </div>
+        </div>
+
+    </div>
+    <!-- end gallery section  -->
+    <!-- start timeline section  -->
+    <div class="timeline">
+        <div class="container">
+            <h2>Timeline</h2>
+            <div class="timeline-content">
+                <div class="year">2024</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Coursera</h3>
+                        <p>Start, switch, or advance your career with more than 7000 courses, Professional Certificates, and degrees from world-class universities and companies.</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Udemy</h3>
+                        <p>Choose from over 210,000 online video courses with new additions published every month</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="left">
+                    <div class="content">
+                        <h3>edX</h3>
+                        <p>Your edX learning experience is grounded in cutting edge cognitive science. With more than two dozen distinct learning features to help you achieve your goals, our approach follows three key principles:</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Alx</h3>
+                        <p>Develop your tech and professional skills with our world-class programmes,and be part of a community that will accelerate your career.</p>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end timeline section  -->
+    <!-- start features section -->
+    <div class="features">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="./css/imgs/11.png" alt="">
+                <h4>Development</h4>
+                <p>We are professional marketeers , we will do anything you imagine in no time </p>
+            </div>
+            <div class="feat-box">
+                <img src="./css/imgs/12.jpeg" alt="">
+                <h4>Marketing</h4>
+                <p>We are professional marketeers , we will do anything you imagine in no time </p>
+            </div>
+            <div class="feat-box">
+                <img src="./css/imgs/13.jpeg" alt="">
+                <h4>Hosting</h4>
+                <p>We are professional marketeers , we will do anything you imagine in no time </p>
+            </div>
+            <div class="feat-box">
+                <img src="./css/imgs/14.jpg" alt="">
+                <h4>Databases</h4>
+                <p>We are professional marketeers , we will do anything you imagine in no time </p>
+            </div>
+            <div class="feat-box">
+                <img src="./css/imgs/15.jpg" alt="">
+                <h4>Cloud and Servers</h4>
+                <p>We are professional marketeers , we will do anything you imagine in no time </p>
+            </div>
+            <div class="feat-box">
+                <img src="./css/imgs/16.png" alt="">
+                <h4>Seo</h4>
+                <p>We are professional marketeers , we will do anything you imagine in no time </p>
+            </div>
+        </div>
+        <div class="clear-fix"></div>
+    </div>
+    <!-- end features section  -->
+    <!-- start testmonials section  -->
+    <div class="testmonials">
+        <div class="container">
+            <h2>Testmonials</h2>
+            <div class="ts-box">
+                <p class="paragrapgh">A product review is an evaluation of a product that shares the reviewer's opinion about its features, performance, quality, and overall value</p>
+                <div class="person-info">
+                    <img src="./css/imgs/3.jpg" width="80px" height="80px" alt="">
+                    <h4>Omar Marmoush</h4>
+                    <p>football player</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p class="paragrapgh">A product review is an evaluation of a product that shares the reviewer's opinion about its features, performance, quality, and overall value</p>
+                <div class="person-info">
+                    <img src="./css/imgs/7.jpg" width="80px" height="80px" alt="">
+                    <h4>Mahmoud Trezegeut</h4>
+                    <p>football player</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p class="paragrapgh">A product review is an evaluation of a product that shares the reviewer's opinion about its features, performance, quality, and overall value</p>
+                <div class="person-info">
+                    <img src="./css/imgs/5.jpg" width="80px" height="80px" alt="">
+                    <h4>Ahmed Hegazi</h4>
+                    <p>football player</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testmonials section  -->
+    <!-- start about us section  -->
+    <div class="opinion">
+        <div class="container">
+            <h2>Comments</h2>
+            <div class="opinion-box">
+                <form>
+                    <div class="left">
+                        <input type="text" placeholder="Name" >
+                        <input type="email" placeholder="Email">
+                        <input type="text" placeholder="Phone">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="right">
+                        <textarea name="" placeholder="Your Message" ></textarea>
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- end about us section  -->
+   <script src="js/index.js"></script>
+</body>
+</html>
